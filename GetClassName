@@ -1,0 +1,10 @@
+class GetClassName
+{
+public static void main(String args[])
+{
+ GetClassName a=new GetClassName();
+Class c=a.getClass();
+String name=c.getName();
+System.out.println(name);
+}
+}
