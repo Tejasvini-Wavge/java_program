@@ -1,0 +1,23 @@
+class StringMethods
+{
+public static void main(String args[])
+{
+String s1 = "ajay";
+System.out.println(s1.toUpperCase());
+String s2 = "AJAY";
+System.out.println(s2.toLowerCase());
+System.out.println(s1.startsWith("j"));
+System.out.println(s1.endsWith("y"));
+System.out.println(s1.length());
+System.out.println(s2.length());
+String s3 ="   Ajay    Lakhan    ";
+System.out.println(s3.trim());
+String s4 ="java is programming language";
+System.out.println(s4.replace("java","lava"));
+int a = 50;
+System.out.println(a + 10);
+String s5 = String.valueOf(a);
+System.out.println(s5 + 10);
+System.out.println(s4.charAt(10));
+}
+}
